@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flames</title>
+</head>
+<body>
+    <div class="container">
+        <h3 class="gameTitle">FLAMES</h3>
+
+        <div class="gameBox">
+
+            <div class="inputBox">
+                <input type="text" id="userName"
+                onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))">
+                <label>ENTER YOUR NAME</label>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="crushName"
+                onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122))">
+                <label>ENTER YOUR CRUSH NAME</label>
+            </div>
+        </div>
+
+        <div class="buttonBox">
+            <button id="checkMatchBtn"><span>CHECK MATCH</span></button>
+        </div>
+
+        <div class="matchResultBox">
+            friends
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
